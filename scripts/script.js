@@ -11,6 +11,7 @@ buttons.forEach(button => {
         do {
             var color = Math.floor(Math.random() * 4)
         } while(colors[color] === e.target.classList[0])
+
         colorDiv.style.backgroundColor = `${colors[color]}`
     })
 })
